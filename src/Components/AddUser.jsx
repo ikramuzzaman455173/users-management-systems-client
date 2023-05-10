@@ -12,7 +12,7 @@ const AddUser = () => {
     const status = form.status.value
     const user = { name, email, gender, status }
     // console.log(user);
-    fetch('http://localhost:4000/users', {
+    fetch('https://user-management-system-server.vercel.app/users', {
       method: 'POST',
       headers: {
         'content-type':'application/json'
