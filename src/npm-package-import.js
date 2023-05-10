@@ -39,3 +39,19 @@ ReactDOM.createRoot(document.getElementById('root')).render(<RouterProvider rout
 // moment js
 import moment from 'moment';
 moment().format();
+
+
+// sweetalert2
+
+// ES6 Modules or TypeScript
+import Swal from 'sweetalert2'
+
+// CommonJS
+const Swal = require('sweetalert2')
+
+Swal.fire({
+  title: 'Error!',
+  text: 'Do you want to continue',
+  icon: 'error',
+  confirmButtonText: 'Cool'
+})
